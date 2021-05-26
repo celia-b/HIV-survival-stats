@@ -1,5 +1,3 @@
-setwd('C:/Users/celib/Desktop/DENMARK/DTU/1-SEMESTER/Statistical Modelling/projects/survival_data')
-
 library(numDeriv)
 library(matlib)
 library(dplyr)
@@ -11,7 +9,7 @@ library(stats)
 ### ------------------------------------------- ###
 
 
-actg <- read.table('actg320.txt', header = TRUE, sep = '\t')
+actg <- read.table('data/actg320.txt', header = TRUE, sep = '\t')
 
 
 ### ------------------------------------------------ ###
