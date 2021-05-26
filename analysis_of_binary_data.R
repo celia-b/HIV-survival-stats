@@ -1,5 +1,3 @@
-setwd('C:/Users/celib/Desktop/DENMARK/DTU/1-SEMESTER/Statistical Modelling/projects/survival_data')
-
 library(numDeriv)
 library(matlib)
 
@@ -7,10 +5,8 @@ library(matlib)
 ### Part 1 - Analysis of the binary data ###
 ### ------------------------------------ ###
 
-## See 4.3. in the book
-
 # Read data
-logistic <- read.table('logistic.txt', header = TRUE, sep = '\t')
+logistic <- read.table('data/logistic.txt', header = TRUE, sep = '\t')
 
 
 # Looks like:
